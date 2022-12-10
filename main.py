@@ -32,7 +32,7 @@ def clear(): # Polyvalent console clearer
   else:
     cmd("cls")
 
-def quit(): # Basic quit function
+def q(): # Basic quit function
   c = inp("Are you sure you want to quit ?\ny/n")
   if c == "y":
     quit()
